@@ -1,0 +1,357 @@
+/* SCSS variables*/
+/* Reset Styles*/
+body {
+  font-family: 'Roboto', sans-serif; }
+
+* {
+  box-sizing: border-box; }
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 22px; }
+
+h4 {
+  font-size: 12px; }
+  h4 #plus {
+    color: #ef0946;
+    padding: 0 11px;
+    font-size: 22px;
+    vertical-align: bottom; }
+
+/* General Sizing*/
+.m-width {
+  max-width: 1310px;
+  margin: auto; }
+
+/* General Buttons*/
+.gen-btn {
+  border-radius: 3px;
+  border: none;
+  font-weight: bold; }
+
+button:hover {
+  opacity: .8; }
+
+/* header Styles*/
+header {
+  background-color: #211551;
+  position: relative; }
+
+#top-banner {
+  height: 60px; }
+  #top-banner img {
+    height: 25px;
+    margin-top: 17px; }
+
+#p-c-logo {
+  float: left;
+  margin-left: 75px; }
+
+#shifter {
+  float: right;
+  margin-right: 25px; }
+
+#log-in-btn {
+  float: right;
+  height: 40px;
+  width: 113px;
+  margin: 10px 75px 0 0;
+  background-color: #3f74d9;
+  color: #f30042;
+  font-size: 11px; }
+
+#mid-banner {
+  /* Image loaded inline :(*/
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 670px; }
+
+#attention-text {
+  margin-top: 120px;
+  width: 800px;
+  float: right;
+  text-align: center;
+  color: #fff; }
+  #attention-text h1 {
+    font-size: 60px; }
+
+#sub-title {
+  color: #ff008a;
+  font-style: italic;
+  font-size: 29px; }
+
+#get-started {
+  height: 70px;
+  width: 235px;
+  background-color: #4eae38;
+  color: white;
+  font-size: 16px; }
+
+#sub-banner {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #d1cccc;
+  text-align: center; }
+
+/* Center Styles*/
+#mid-section {
+  background-color: #110540; }
+
+#mid-sizing {
+  width: 90%;
+  max-width: 1160px;
+  margin: auto; }
+
+#steps-container {
+  padding: 30px 0 15px 0; }
+
+.step-container {
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  width: 33%; }
+
+.step-number {
+  float: left;
+  width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #001f3d;
+  border-radius: 50%;
+  margin: 0 15px;
+  font-size: 32px;
+  font-weight: bold; }
+
+.step-text {
+  float: left; }
+  .step-text h3 {
+    margin: 7px 0; }
+  .step-text p {
+    margin: 0; }
+
+.step-line {
+  float: right;
+  border-bottom: 2px solid white;
+  height: 55px;
+  width: 15%; }
+
+#jackpot-container {
+  color: white;
+  background-color: #0a0428;
+  width: 670px;
+  height: 105px;
+  margin: auto; }
+  #jackpot-container div {
+    display: inline-block; }
+
+#jackpots-text {
+  width: 25%;
+  float: left;
+  text-align: center; }
+
+#jackpot-logo-container {
+  width: 25%;
+  float: left;
+  text-align: center; }
+
+#jackpots-text {
+  padding-top: 17px; }
+
+.clock-box {
+  width: 50%;
+  display: inline-block; }
+
+.euro {
+  float: left;
+  height: 109px;
+  line-height: 109px;
+  width: 1%;
+  display: inline-block; }
+
+#jackpot-logo {
+  padding-top: 1px; }
+
+.t-c-container {
+  background-color: #211551;
+  color: #fff;
+  border-radius: 2px;
+  margin: 25px auto;
+  padding: 10px 10px;
+  max-height: 60px;
+  overflow: hidden;
+  transition: max-height 1s ease-in-out; }
+  .t-c-container h4 {
+    margin: 10px; }
+
+.expand {
+  max-height: 300px; }
+
+#t-c-title {
+  line-height: 22px; }
+
+#t-c-text {
+  margin: 21px;
+  font-size: 12px; }
+
+.hidden {
+  display: none; }
+
+#transactions-container {
+  overflow: auto; }
+
+#finance-logo-dif, .finance-logo-bkg {
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 2%; }
+
+.finance-logo-bkg {
+  background-color: #0d0431;
+  height: 60px;
+  padding: 15px 15px; }
+
+#legal-logo {
+  padding: 20px 15px;
+  margin-left: 30px; }
+
+footer {
+  background-color: #0d0431;
+  color: #707a8f;
+  padding-top: 30px;
+  font-size: 9px; }
+
+#finance-logo-dif-foot {
+  display: none; }
+
+.footer-container {
+  width: 90%;
+  max-width: 1160px;
+  margin: auto; }
+
+#legal-age {
+  display: inline-block; }
+
+#address {
+  display: inline-block;
+  vertical-align: top;
+  margin: 18px 0 0 10px; }
+
+@media only screen and (max-width: 1190px) {
+  .step-number {
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    line-height: 80px; }
+  .step-line {
+    height: 40px; }
+  .bonus-prize {
+    font-size: 12px; }
+  #legal-logo {
+    padding: 20px 0px;
+    margin-left: 0; } }
+
+@media only screen and (max-width: 899px) {
+  #mid-sizing {
+    width: 100%; }
+  .step-number {
+    margin-left: 5px; }
+  #t-c-container {
+    width: 95%;
+    margin: 0 auto 20px auto; }
+  #transactions-container, .footer-container {
+    width: 95%;
+    margin: auto; } }
+
+@media only screen and (max-width: 815px) {
+  .step-line {
+    display: block;
+    float: none;
+    clear: left;
+    border-bottom: 0;
+    border-right: 2px solid #ff008a;
+    width: 47px;
+    height: 40px;
+    margin-bottom: 4px; }
+  .step-container {
+    width: 100%; }
+  .step-container-inner {
+    width: 50%;
+    margin: auto; } }
+
+@media only screen and (max-width: 753px) {
+  #p-c-logo, #log-in-btn {
+    margin-left: 25px; }
+  #log-in-btn {
+    margin-right: 25px; }
+  #shifter {
+    float: none;
+    margin-right: 0;
+    position: absolute;
+    bottom: 140px;
+    z-index: 1;
+    width: 100%; }
+  #v-s-logo {
+    display: block;
+    margin: auto; }
+  #attention-text {
+    padding-top: 30px;
+    margin-top: 0;
+    float: none;
+    width: 100%; }
+    #attention-text h1 {
+      font-size: 50px; }
+  #sub-title {
+    margin: 0; }
+  #mid-banner {
+    background-position: 25% 50%; }
+  #get-started {
+    display: none; }
+  #jackpot-container {
+    width: 100%; }
+  .finance-logo-bkg {
+    width: 49%;
+    height: 60px;
+    margin-right: 0; }
+    .finance-logo-bkg img {
+      position: relative;
+      display: inline-block;
+      left: 50%;
+      transform: translate(-50%); }
+  .fin-log-bkg-l {
+    margin-right: 2%; }
+  #finance-logo-dif {
+    display: none; }
+  #finance-logo-dif-foot {
+    display: block; }
+    #finance-logo-dif-foot #legal-logo {
+      padding: 0 0 20px 40px; } }
+
+@media only screen and (max-width: 580px) {
+  #jackpot-container {
+    height: auto; }
+  #jackpots-text {
+    width: 100%; }
+  .euro {
+    width: 18%;
+    text-align: right; }
+  .clock-box {
+    width: 100%;
+    margin: auto;
+    text-align: center; }
+  .flip-clock-wrapper {
+    width: 70%; }
+  #jackpot-logo-container {
+    width: 100%; }
+    #jackpot-logo-container img {
+      width: 30%; } }
+
+@media only screen and (max-width: 444px) {
+  .step-container-inner {
+    width: 60%;
+    margin: auto; } }
+

@@ -1,0 +1,171 @@
+
+@media only screen and (max-width: 1190px) {
+//prevent deposit instructions from breaking early
+  .step-number {
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+    line-height: 80px;
+  }
+  .step-line {
+    height: 40px;
+  }
+  .bonus-prize {
+    font-size: 12px;
+  }
+
+  #legal-logo {
+    padding: 20px 0px;
+    margin-left: 0;
+  }
+
+}
+@media only screen and (max-width: 899px) {
+//prevent deposit instructions from breaking early
+  #mid-sizing {
+    width: 100%;
+  }
+  .step-number {
+    margin-left: 5px;
+  }
+  //widen site
+  #t-c-container{
+    width: 95%;
+    margin: 0 auto 20px auto;
+  }
+  #transactions-container, .footer-container {
+    width: 95%;
+    margin: auto;
+  }
+
+}
+@media only screen and (max-width: 815px) {
+  //re-organise the steps instructions
+  .step-line {
+    display: block;
+    float: none;
+    clear:left;
+    border-bottom: 0;
+    border-right: 2px solid #ff008a;
+    width: 47px;
+    height: 40px;
+    margin-bottom: 4px;
+  }
+  .step-container  {
+    width: 100%;
+  }
+  .step-container-inner {
+    width: 50%;
+    margin: auto;
+  }
+
+}
+//main collapse to narrow version
+@media only screen and (max-width: 753px) {
+  //making space in the top bar
+  #p-c-logo, #log-in-btn {
+    margin-left: 25px;
+  }
+  #log-in-btn {
+    margin-right: 25px;
+  }
+  //moving the EGR logo out of the top bar
+  #shifter {
+    float: none;
+    margin-right: 0;
+    position: absolute;
+    bottom: 140px;
+    z-index: 1;
+    width: 100%;
+  }
+  #v-s-logo {
+    display: block;
+    margin: auto;
+  }
+//repositioning the main titles in center and smaller
+  #attention-text {
+    padding-top: 30px;
+    margin-top: 0;
+    float: none;
+    width: 100%;
+    h1 {
+      font-size: 50px;
+    }
+  }
+  #sub-title {
+    margin: 0;
+  }
+  #mid-banner {
+    background-position: 25% 50%;
+  }
+
+  //hiding the get started button
+  #get-started {
+    display: none;
+  }
+
+  //widening to final width
+  #jackpot-container {
+    width: 100%;
+  }
+  //setting two col width of finance logos
+  .finance-logo-bkg {
+    width:49%;
+    height: 60px;
+    margin-right: 0;
+    img {
+      position: relative;
+      display: inline-block;
+      left: 50%;
+      transform: translate(-50%)
+    }
+
+  }
+  .fin-log-bkg-l {
+    margin-right: 2%;
+  }
+    //relocating the ecogra logo
+  #finance-logo-dif {
+    display: none;
+  }
+  #finance-logo-dif-foot {
+    display:block;
+    #legal-logo {
+      padding: 0 0 20px 40px;;
+    }
+  }
+}
+@media only screen and (max-width: 580px) {
+  //making a col layout for the jackpot
+#jackpot-container {
+  height: auto;
+}
+#jackpots-text {
+  width: 100%;
+
+}
+.euro {
+  width:18%;
+  text-align: right;
+}
+.clock-box {
+  width: 100%;
+  margin:  auto;
+  text-align: center;
+}
+.flip-clock-wrapper {
+  width: 70%;
+}
+#jackpot-logo-container {
+  width: 100%;
+  img {
+    width: 30%;
+  }
+}
+}
+@media only screen and (max-width: 444px) {
+  .step-container-inner {
+    width: 60%;
+    margin: auto;
+  }
+}
